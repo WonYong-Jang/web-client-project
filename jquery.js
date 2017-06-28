@@ -1,8 +1,8 @@
 /* -------------------로그인 로그아웃에서 input값 설정---------------------------------*/
-$('input').focus(function () {
+$('#input').focus(function () {
     $(this).next('span').removeAttr('hidden');
 });
-$('input').blur(function () {
+$('#input').blur(function () {
     $(this).next('span').attr('hidden', 'hidden');
 });
 /* -------------------로그인 로그아웃에서 input값 설정---------------------------------*/
